@@ -1,0 +1,11 @@
+@echo off
+set var=%1
+
+:LOOP
+if '%1' gtr '%3' goto :EOF
+::program1 %var% %2
+::call prog1 %var% %2
+::call prog2 %var% %2
+echo %var%
+set /a var+=1
+goto LOOP

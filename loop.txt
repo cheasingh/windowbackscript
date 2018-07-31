@@ -1,0 +1,8 @@
+@echo off
+::loop
+set v = 1
+set a/ loop1=1+%v%
+echo %loop1%
+::goto loop
+
+pause >nul
