@@ -1,6 +1,0 @@
-EQU	equal to
-NEQ	not equal to
-LSS	less than
-LEQ	less than or equal to
-GTR	greater than
-GEQ	greater than or equal to
